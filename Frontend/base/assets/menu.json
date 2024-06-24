@@ -1,0 +1,30 @@
+{
+  "left" : [ {
+    "accessControl" : [ "App Admin" ],
+    "outline" : false,
+    "label" : "MENU",
+    "element" : "menuItem"
+  }, {
+    "pathsInvolved" : [ "/applicationuser/applicationuserlist" ],
+    "accessControl" : [ "App Admin" ],
+    "onClick" : "navigate_to_page",
+    "outline" : false,
+    "label" : "APPLICATION_USER",
+    "page" : {
+      "sid" : "999a326e-e5a0-43b7-9713-55c1008d2970",
+      "name" : "Application User List",
+      "url" : "/applicationuser/applicationuserlist"
+    },
+    "element" : "menuItem"
+  } ],
+  "topBarLeft" : [ ],
+  "topBarMiddle" : [ ],
+  "topBarRight" : [ {
+    "languages" : [ {
+      "code" : "en",
+      "name" : "English"
+    } ],
+    "element" : "language"
+  } ],
+  "right" : [ ]
+}
